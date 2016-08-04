@@ -101,6 +101,7 @@ strong {
 
 .student li:last-child { 
     border-bottom: solid thin #333;
+    margin-bottom: 35px;
 }
 
 video#bgvid { 
