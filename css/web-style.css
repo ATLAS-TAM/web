@@ -99,6 +99,10 @@ strong {
 	border-right: solid thin #333;
 }
 
+.student li:last-child { 
+    border-bottom: solid thin #333;
+}
+
 video#bgvid { 
     position: fixed;
     top: 50%;
