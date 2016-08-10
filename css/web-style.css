@@ -230,7 +230,8 @@ details {
 	padding: 3px;
 }
 
-details ul {
+details ul,
+details ol {
 	border: none !important;
 	margin-left: 20px;
 }
@@ -241,6 +242,10 @@ details ul:nth-child(even) {
 
 details li {
 	list-style-type: circle;
+}
+
+details ol li {
+	list-style-type: decimal;
 }
 
 details p {
