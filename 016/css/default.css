@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+* {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.hidden {
+    display: none;
+}
+body {
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    background-color: #ececec;
+    text-align: center;
+    color: #10222b;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+a, b, i, strong {
+    display: inline;
+}
+nav a:hover {
+    background-color: #bcc0c2;
+    color: black;
+    border-radius: 4px;
+}
+p {
+    padding-bottom: 1.5em;
+    word-wrap: normal;
+}
+a {
+    color: #2a0c94;
+    word-wrap: break-word;
+}
+nav {
+    background-color: #10222b;
+    width: 100%;
+    color: white;
+    position: fixed;
+    height: 50px;
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 5px 10px black;
+}
+nav h1 {
+    font-size: 1em;
+    width: 45%;
+    text-transform: uppercase;
+    margin-top: 15px;
+    ;
+}
+span {
+    display: inline;
+}
+nav img {
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: calc(50% - 25px);
+    margin-top: 20px;
+}
+.menuWrapper {
+    position: relative;
+    font-size: 1.5em;
+    margin-top: -28px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menuButton {
+    width: 100%;
+    position: absolute;
+}
+
+#menu-icon{;
+    position: absolute;;
+    left: 75%;
+}
+input[type=checkbox] {
+    display: none;
+}
+input[type=checkbox]:checked~ ul {
+    max-height: 340px;
+    display: block;
+    background-color: rgba(16, 34, 43, 0.9);
+    width: 90%;
+    position: absolute;
+    left: 0;
+    border-radius: 8px;
+    top: 0;
+    margin-left: 5%;
+    margin-top: 80px;
+    /* margin-top: 160px; */
+    /* margin: 0 auto; */;
+}
+nav li {
+    padding: 15px;
+    border-bottom: solid 1px grey;
+}
+nav a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+nav ul {
+    display: none;
+}
+
+/*Section*/
+
+.welcome {
+    padding-top: 80px;
+}
+section {
+    width: 90%;
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding: 2% 1%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+section p {
+    text-align: left;
+    line-height: 1.25em;
+}
+.gold {
+    color: #CFB87C;
+}
+
+/*Portrait Tablet and larger*/
+
+@media screen and (min-width:767px) {
+    nav h1 {
+        font-size: 1.5em;
+    }
+    h1, h2 {
+        padding-bottom: 1em;
+    }
+    .menuWrapper {
+        width: 44%;
+        height: 40px;
+        position: absolute;
+        margin-left: 55%;
+        margin-top: 5px;
+        font-size: 1em;
+    }
+    .menuButton {
+        display: none;
+    }
+    .desktopNav {
+        height: 40px;
+        position: relative;
+        display: block;
+    }
+    nav ul li {
+        display: inline-block;
+        border: none;
+    }
+}
