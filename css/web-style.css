@@ -298,9 +298,12 @@ summary{
 	
 	}
 	
-	.bump {
+	.bump,
+	.bumped {
 		margin-top: 40px;
 	}
+	
+
 
 
 } /* end mobile media block  */
