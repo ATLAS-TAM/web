@@ -60,6 +60,10 @@ nav img {
     margin-left: calc(50% - 25px);
     margin-top: 20px;
 }
+
+.left-justify{
+    text-align: left;
+}
 .menuWrapper {
     position: relative;
     font-size: 1.5em;
