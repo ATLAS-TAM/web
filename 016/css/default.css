@@ -16,7 +16,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
-a, b, i, strong {
+a, b, i, strong, em {
     display: inline;
 }
 nav a:hover {
@@ -60,6 +60,14 @@ nav img {
     margin-left: calc(50% - 25px);
     margin-top: 20px;
 }
+
+.left-justify{
+    text-align: left;
+}
+.bold{
+    font-weight: bold;
+}
+
 .menuWrapper {
     position: relative;
     font-size: 1.5em;
@@ -105,6 +113,7 @@ nav a {
 nav ul {
     display: none;
 }
+
 
 /*Section*/
 
