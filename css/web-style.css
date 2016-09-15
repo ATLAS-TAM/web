@@ -1,5 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700); */
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
 
 /* global styles */
 
@@ -37,7 +56,14 @@ ul li {
 	text-align: center;
 }
 
-h2, h3 {
+h1,
+h2,
+h3 {
+	font-family: "Open Sans Bold";
+}
+
+h2, 
+h3 {
 	margin-bottom: 5px;
 	margin-top: 10px;
 	font-variant: small-caps;
